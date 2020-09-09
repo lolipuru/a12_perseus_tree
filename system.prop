@@ -6,5 +6,7 @@ persist.camera.sat.fallback.luxindex=310
 persist.camera.sat.fallback.lux.d=50
 persist.camera.saf.stablecnt=3
 
-# Display
-ro.surface_flinger.has_wide_color_display=true
+# Zram
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24
