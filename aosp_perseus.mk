@@ -8,8 +8,6 @@ $(call inherit-product, device/xiaomi/perseus/device.mk)
 
 # Inherit some common Arcana stuff.
 $(call inherit-product, vendor/aosp/common.mk)
-TARGET_SUPPORTS_BLUR := true
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
 COPY_APN_SYSTEM := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
